@@ -78,6 +78,13 @@ In this project, I learned how **dependency injection** works in Spring:
 
 To integrate JSP views in a Spring Boot project:
 
+## Note that While doing this you must add this dependency *tomcat-embed-jasper* in pom.xml
+## also note that naming convention of src/main/webapp/WEB-INF/views/* must be same 
+## and adding this in application.properties 
+# **spring.mvc.view.prefix=/WEB-INF/views/**
+# **spring.mvc.view.suffix=.jsp**
+
+
 ### Steps:
 
 1. Create a folder structure:
